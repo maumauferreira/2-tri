@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você está assistindo à cerimônia de abertura das Olimpíadas. Qual é sua primeira impressão sobre o evento?",
+        enunciado: "Você está assistindo à cerimônia de abertura das Olimpíadas. Qual é a sua reação?",
         alternativas: [
             {
-                texto: "É uma celebração incrível e inspiradora!",
-                afirmacao: "Sentiu-se inspirado pela grandiosidade e beleza da cerimônia."
+                texto: "Fica empolgado com as performances e a exibição de culturas diversas.",
+                afirmacao: "A cerimônia de abertura te inspira com a união e diversidade de culturas."
             },
             {
-                texto: "Parece um desperdício de dinheiro.",
-                afirmacao: "Ficou preocupado com os custos envolvidos na realização do evento."
+                texto: "Aprecia os elementos históricos e culturais apresentados.",
+                afirmacao: "Você valoriza o aspecto cultural e histórico das Olimpíadas."
             }
         ]
     },
     {
-        enunciado: "Durante as competições, você vê atletas de diferentes países competindo. Como você se sente sobre a diversidade nas Olimpíadas?",
+        enunciado: "Seu país está participando de uma competição acirrada de atletismo. Como você acompanha a prova?",
         alternativas: [
             {
-                texto: "A diversidade é o que torna as Olimpíadas especiais.",
-                afirmacao: "Aprecia a união de diversas culturas em um único evento."
+                texto: "Assiste com atenção, torcendo fervorosamente pelos atletas do seu país.",
+                afirmacao: "Sua paixão pelo esporte faz você torcer intensamente pelos seus atletas."
             },
             {
-                texto: "É difícil acompanhar tantas culturas diferentes.",
-                afirmacao: "Sente-se um pouco perdido com a variedade de culturas presentes."
+                texto: "Analisa a técnica e a estratégia dos atletas enquanto assiste.",
+                afirmacao: "Você se interessa pelos aspectos técnicos e táticos do atletismo."
             }
         ]
     },
     {
-        enunciado: "Um atleta do seu país ganha uma medalha de ouro. Qual é sua reação?",
+        enunciado: "Um atleta da sua nação acaba de ganhar uma medalha de ouro. Qual é sua reação?",
         alternativas: [
             {
-                texto: "Sente um grande orgulho nacional.",
-                afirmacao: "Ficou emocionado e orgulhoso pelo sucesso do atleta de seu país."
+                texto: "Comemora efusivamente e compartilha a notícia com amigos e familiares.",
+                afirmacao: "A vitória de um atleta do seu país te enche de orgulho e alegria."
             },
             {
-                texto: "A vitória individual é mais importante que a nacionalidade.",
-                afirmacao: "Acredita que o mérito é do atleta, independentemente da nacionalidade."
+                texto: "Reflete sobre o esforço e a dedicação necessários para alcançar esse resultado.",
+                afirmacao: "Você admira a dedicação e o esforço dos atletas para alcançar o sucesso."
             }
         ]
     },
     {
-        enunciado: "Você tem a chance de assistir a uma competição ao vivo. Qual esporte você escolhe?",
+        enunciado: "Você tem a chance de assistir a uma modalidade esportiva pouco conhecida. O que faz?",
         alternativas: [
             {
-                texto: "Atletismo, pela emoção das corridas.",
-                afirmacao: "Escolheu assistir ao atletismo para sentir a adrenalina das corridas."
+                texto: "Aproveita a oportunidade para aprender sobre a nova modalidade e entender suas regras.",
+                afirmacao: "Você é curioso e gosta de aprender sobre novos esportes."
             },
             {
-                texto: "Ginástica artística, pela beleza das performances.",
-                afirmacao: "Prefere a ginástica artística por causa da graça e habilidade envolvidas."
+                texto: "Prefere assistir às modalidades que já conhece e gosta.",
+                afirmacao: "Você prefere assistir aos esportes que já está familiarizado."
             }
         ]
     },
     {
-        enunciado: "As Olimpíadas deste ano estão chegando ao fim. Qual é sua reflexão final sobre o evento?",
+        enunciado: "Um amigo te convida para praticar um esporte olímpico. Qual é sua resposta?",
         alternativas: [
             {
-                texto: "Foi um evento que uniu o mundo.",
-                afirmacao: "Acredita que as Olimpíadas são uma força unificadora global."
+                texto: "Aceita o convite e se prepara para a prática esportiva.",
+                afirmacao: "Você está sempre disposto a experimentar novos esportes."
             },
             {
-                texto: "Os recursos poderiam ser usados de maneira mais útil.",
-                afirmacao: "Pensa que o investimento poderia ser direcionado para outras áreas."
+                texto: "Agradece o convite, mas prefere assistir ao esporte em vez de praticar.",
+                afirmacao: "Você prefere ser espectador do que praticante dos esportes."
             }
         ]
     },
@@ -104,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Reflexão final...";
+    caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
